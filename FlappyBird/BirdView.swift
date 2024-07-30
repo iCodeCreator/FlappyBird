@@ -19,5 +19,5 @@ struct BirdView: View {
 }
 
 #Preview {
-    BirdView(birdSize: 55)
+    BirdView(birdSize: 50)
 }

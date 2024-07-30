@@ -16,10 +16,13 @@ struct ResultView: View {
         VStack {
             Text("Game Over")
                 .font(.largeTitle)
+                .foregroundStyle(.black)
                 .padding()
             Text("Score: \(score)")
                 .font(.title)
+                .foregroundStyle(.black)
             Text("Best: \(highScore)")
+                .foregroundStyle(.red)
                 .padding()
             Button("RESET", action: resetAction)
                 .padding()
